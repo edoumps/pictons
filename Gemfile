@@ -48,6 +48,10 @@ gem "sassc-rails"
 # Used for generating simple form
 gem "simple_form"
 
+# Used for the Admin Panel
+gem "devise"
+gem "activeadmin"
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 gem "image_processing", "~> 1.2"
 

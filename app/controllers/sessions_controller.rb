@@ -37,6 +37,7 @@ class SessionsController < ApplicationController
 
   #   redirect_to root_path
   # end
+  
 
   def form_params
     params.require(:session).permit(:username, :password)
